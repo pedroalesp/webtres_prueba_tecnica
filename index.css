@@ -11,21 +11,11 @@ body {
   border-color: #000;
 }
 
-/* .btn-dark:hover {
-  background-color: #fff;
-  border-color: #000;
-  color: #000;
-} */
-
 .btn-outline-dark {
   color: #000;
   border-color: #000;
   border: 2px solid #000;
 }
-
-/* .btn-outline-dark:hover {
-  background-color: #000;
-} */
 
 .slogan {
   font-size: 20px;
@@ -118,6 +108,10 @@ body {
   font-size: 16px;
 }
 
+.anchor_modal:hover {
+  color: #000;
+}
+
 .btn-send {
   margin-right: 1.5rem;
 }
@@ -133,4 +127,14 @@ body {
 
 .modal-body {
   padding: 0 1.5rem 3rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
 }
