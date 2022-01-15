@@ -6,7 +6,7 @@ En este repositorio encontrarás la tarea que me fue asignada en el proceso de s
 
 Alojé e hice deploy del proyecto en Netlify para acceder a el fácilmente 👉 https://pruebatecnicawebtres.netlify.app/
 
-#Preview
+# Preview
 ![Vista responsiva de la app](/assets/preview.jpg)
 
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
