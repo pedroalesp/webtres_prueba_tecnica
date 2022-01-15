@@ -138,3 +138,59 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+.fadein_animation {
+  overflow: hidden;
+  animation-duration: 1s;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .anchor_modal {
+    font-size: 14px;
+  }
+  .display-5 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container__resize {
+    width: 50%;
+    transform: translateX(50%);
+  }
+  .display-6 {
+    font-size: 24px;
+  }
+  .slogan {
+    font-size: 27px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container__resize {
+    width: 30%;
+    transform: translateX(100%);
+  }
+  .display-6 {
+    font-size: 30px;
+  }
+  .slogan {
+    font-size: 30px;
+    padding-left: 21rem;
+    padding-right: 21rem;
+  }
+}

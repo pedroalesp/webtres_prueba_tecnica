@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- HEADER  -->
-    <header class="row header">
+    <header class="row header container__resize">
       <div class="col-6">
         <strong>9:41</strong>
       </div>
@@ -29,7 +29,7 @@
     </header>
     <!-- /HEADER  -->
 
-    <section class="container mt-3 mx-2">
+    <section class="container mt-3 mx-2 container__resize">
       <!-- NAVBAR  -->
       <div class="row align-items-center">
         <div class="col">
@@ -52,11 +52,11 @@
       <!-- /NAVBAR  -->
 
       <!-- FORM  -->
-      <div class="row px-2 mt-4">
+      <div class="row px-2 mt-4 fadein_animation">
         <h2 class="display-5">Documento de identidad</h2>
 
         <!-- CHECK-RADIOS  -->
-        <div class="col col-lg-6">
+        <div class="col">
           <p class="lead">Tipo de documento</p>
           <div class="form-check">
             <input
@@ -94,10 +94,11 @@
             </label>
           </div>
         </div>
+        <!-- /CHECK-RADIOS  -->
       </div>
 
-      <div class="row px-2 mt-3">
-        <div class="col col-lg-6">
+      <div class="row px-2 mt-3 fadein_animation">
+        <div class="col">
           <div class="mb-3 container__identification">
             <label for="identification_number" class="form-label lead"
               >N° de identificación (sin guiones)</label
@@ -111,7 +112,7 @@
           </div>
         </div>
 
-        <div class="d-grid gap-3 col-12 col-lg-4 mx-auto container__info">
+        <div class="d-grid gap-3 col-12 mx-auto container__info">
           <a
             href="#"
             class="anchor_modal"
@@ -121,7 +122,7 @@
           >
           <a
             href="/feedback.html"
-            type="button"
+            type="submit"
             class="btn btn-dark btn-lg btn-send"
           >
             <strong>Continuar</strong>
